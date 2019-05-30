@@ -51,10 +51,21 @@
 
         input[name="name"] {
             width: 15%;
+            transition: width 1s;
+        }
+
+        input[name="name"]:focus {
+            width: 65%;
+            
         }
 
         input[name="msg"] {
-            width: 70%;
+            width: 20%;
+            transition: width 1s;
+        }
+
+        input[name="msg"]:focus {
+            width:  70%;
         }
 
         input[type="button"] {
